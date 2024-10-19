@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    max-height: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo img{
+    height: 100px;
+    width: 200px;
+}
+ul{
+    display: flex;
+    justify-content: right;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.buttons {
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0 15px;
+    transition: padding 1s, background-color 0.5s;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttons:hover{
+    padding: 30px;
+}
+.buttons:active {
+    background-color: dodgerblue;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
